@@ -871,6 +871,10 @@ textarea {
 	opacity: 1;
 	vertical-align: middle;
 }
+@keyframes snake {
+	0% { transform: translateY(-100px); }
+	100% { transform: translateY(0px); }
+}
 .desc-picture {
 	position: absolute;
 	bottom: 0;
@@ -882,8 +886,11 @@ textarea {
 	line-height: 18px;
 	color: #666666;
 	display: none;
+
+	animation-name: snake;
+	animation-duration: 0.4s;
 }
-.desc-picture a {
+.desc-picture b {
 	
 	width: 240px;
 	font-size: 18px;
