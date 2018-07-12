@@ -668,40 +668,16 @@ img {
   background-image: url("../img/advantage-1.png");
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .advantages__item--health::before {
-    background-image: url(../img/advantage-1@2x.png);
-  }
-}
-
 .advantages__item--cook::before {
   background-image: url("../img/advantage-2.png");
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .advantages__item--cook::before {
-    background-image: url(../img/advantage-2@2x.png);
-  }
 }
 
 .advantages__item--replace::before {
   background-image: url("../img/advantage-3.png");
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .advantages__item--replace::before {
-    background-image: url(../img/advantage-3@2x.png);
-  }
-}
-
 .advantages__item--change::before {
   background-image: url("../img/advantage-4.png");
-}
-
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .advantages__item--change::before {
-    background-image: url(../img/advantage-4@2x.png);
-  }
 }
 
 @media (min-width: 768px) {
