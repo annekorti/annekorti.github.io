@@ -1015,6 +1015,7 @@ img {
   opacity: 0.3; }
 
 .contacts__map {
+	position: relative;
   height: 457px; }
 .contacts__map img {
 	position: absolute;
