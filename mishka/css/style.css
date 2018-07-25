@@ -1689,6 +1689,9 @@ img {
   display: flex;
   justify-content: space-between; }
 
+.input-radio {
+  display: none;
+}
 .choose {
   font-size: 17px;
   line-height: 17px;
@@ -1700,7 +1703,7 @@ img {
 .choose:focus {
   border-color: rgba(68, 68, 68, 0.3); }
 
-.choose--active {
+.input-radio:checked+.choose {
   border-color: #63d1bb; }
 
 .modal__button {
