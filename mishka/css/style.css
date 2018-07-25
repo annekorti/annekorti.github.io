@@ -1180,7 +1180,7 @@ img {
   margin-bottom: }
 
 .process--part {
-  min-height: 285px;
+  min-height: 245px;
   border: 1px solid #ececec; }
 
 .process--part:hover,
@@ -1211,7 +1211,9 @@ img {
     line-height: 30px;
     padding: 22px 40px 35px; }
   .process__button {
-    margin: 0 42px; } }
+    margin: 0 42px; }
+    .process--part {
+      min-height: 285px} }
 
 @media (min-width: 1150px) {
   .process {
