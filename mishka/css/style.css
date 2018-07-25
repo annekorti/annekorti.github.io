@@ -1201,8 +1201,6 @@ img {
     flex-direction: column; }
   .mobile-only {
     display: block; }
-  .desktop-only {
-    display: none; }
   .process__title {
     font-size: 20px;
     padding: 38px 30px 10px 106px; }
