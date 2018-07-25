@@ -1176,9 +1176,11 @@ img {
   padding: 22px 34px 25px; }
 
 .process__button {
-  margin: 0 33px; }
+  margin: 0 33px; 
+  margin-bottom: }
 
 .process--part {
+  min-height: 285px;
   border: 1px solid #ececec; }
 
 .process--part:hover,
