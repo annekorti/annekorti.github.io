@@ -7,14 +7,16 @@
 	<meta name="format-detection" content="telephone=no">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>
 <body>
 	
 	<header class="page-header">
+		<h2 class="visually-hidden">Меню</h2>
 		<div class="page-header__wrapper">
-			<nav class="main-nav main-nav--opened">
-				<a class="main-nav__logo">
+			<nav class="main-nav main-nav--open">
+				<div class="main-nav__wrapper">
+					<a class="main-nav__logo">
 					<picture>
 						<source media="(min-width: 1300px)" srcset="img/logo-desktop.svg">
 						<source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
@@ -22,7 +24,6 @@
 					</picture>
 				</a>
 				<button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-				<div class="main-nav__wrapper">
 					<ul class="site-list">
 						<li class="site-list__item">
 							<a href="catalog.html">Каталог товаров</a>
@@ -107,7 +108,7 @@
 		</div>
 			<picture>
 				<source media="(min-width: 1300px)" srcset="img/triple-set-desktop.jpg, img/triple-set-desktop@2x.jpg">
-				<source media="(min-width: 768px)"srcset="img/triple-set-tablet.jpg, img/triple-set-tablet@2x.jpg">
+				<source media="(min-width: 768px)" srcset="img/triple-set-tablet.jpg, img/triple-set-tablet@2x.jpg">
 				<img class="main-nav__logo-image" src="img/triple-set-mobile@1x.jpg" srcset="img/triple-set-mobile@2x.jpg" alt="MISHKA">
 				</picture>
 			<div class="top-product__price">
@@ -254,9 +255,18 @@
 		<h2 class="modal__title">Добавить в корзину</h2>
 		<p class="modal__desk">Выберите размер:</p>
 		<div class="modal__choose">
-			<a class="choose choose--active">S</a>
-			<a class="choose">M</a>
-			<a class="choose">L</a>
+			<div class="modal__form">
+				<input class="input-radio" type="radio" name="size" value="S" id="size1" checked="">
+				<label for="size1" class="choose">S
+			</label></div>
+			<div class="modal__form">
+				<input class="input-radio" type="radio" name="size" value="M" id="size2">
+				<label for="size2" class="choose">M
+			</label></div>
+			<div class="modal__form">
+				<input class="input-radio" type="radio" name="size" value="L" id="size3">
+				<label for="size3" class="choose">L
+			</label></div>
 		</div>
 		<button class="button modal__button" type="button">Добавить</button>
 		</div>
