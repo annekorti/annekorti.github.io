@@ -1183,9 +1183,6 @@ img {
   margin: 0 33px; 
   margin-bottom: }
 
-.process__wrapper{
-  min-height: 245px; }
-
 .process__wrapper:hover,
 .process__wrapper:focus {
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1); }
@@ -1214,9 +1211,7 @@ img {
     line-height: 30px;
     padding: 22px 40px 35px; }
   .process__button {
-    margin: 0 42px; }
-    .process--part {
-      min-height: 285px} }
+    margin: 0 42px; }}
 
 @media (min-width: 1150px) {
   .process {
