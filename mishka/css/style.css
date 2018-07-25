@@ -536,7 +536,8 @@ img {
   .top-product__price {
     padding-top: 13px;
     padding-left: 176px;
-    padding-bottom: 90px; }
+    padding-bottom: 90px;
+    margin-top: -280px; }
   .top-product__top {
     position: absolute;
     top: 80px;
