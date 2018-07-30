@@ -127,10 +127,6 @@ p, h1, h2, h3 {
 	background-repeat: no-repeat;
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .main-nav__desk::after {
-    background-image: url("../img/decoration-1@2x.png"); } }
-
 .advantages {
 	min-height: 385px;
 	margin: 0 auto;
@@ -187,11 +183,6 @@ p, h1, h2, h3 {
 	background-image: url("../img/noodle@1x.png");
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .advantages__item--greens::before  {
-    background-image: url("../img/noodle@2x.png"); } }
-
-
 .advantages__item--water::before {
 	width: 106px;
 	height: 68px;
@@ -202,10 +193,6 @@ p, h1, h2, h3 {
 	background-image: url("../img/Tea@1x.png");
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .advantages__item--water::before {
-    background-image: url("../img/Tea@2x.png"); } }
-
 .advantages__item--social::before {
 	width: 64px;
 	height: 76px;
@@ -214,10 +201,6 @@ p, h1, h2, h3 {
   left: 42%;
 	background-image: url("../img/sweet@1x.png");
 }
-
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .advantages__item--social::before {
-    background-image: url("../img/sweet@2x.png"); } }
 
 .advantages__title {
 	font-size: 18px;
@@ -276,9 +259,6 @@ p, h1, h2, h3 {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .special__title::after {
-    background-image: url("../img/decoration-1@2x.png"); } }
 
 .special__list {
 	width: 1530px;
@@ -367,10 +347,6 @@ p, h1, h2, h3 {
 	background-repeat: no-repeat;
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .about__wrapper::before  {
-    background-image: url("../img/Signature@2x.png"); } }
-
 .about__wrapper::after {
 	position: absolute;
 
@@ -386,10 +362,6 @@ p, h1, h2, h3 {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
-
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .about__wrapper::before  {
-    background-image: url("../img/about@2x.png"); } }
 
 .about__title {
 	position: relative;
@@ -418,10 +390,6 @@ p, h1, h2, h3 {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
-
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  .about__title::after  {
-    background-image: url("../img/decoration-1@2x.png"); } }
 
 .about__desk {
 	width: 610px;
@@ -466,10 +434,6 @@ p, h1, h2, h3 {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
-
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
- .menu__title::after {
-    background-image: url("../img/decoration-1@2x.png"); } }
 
 .menu__list {
 	display: flex;
@@ -597,10 +561,6 @@ p, h1, h2, h3 {
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
-
-@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
- .contact__title::after {
-    background-image: url("../img/decoration-1@2x.png"); } }
 
 .contact-info {
 	display: flex;
