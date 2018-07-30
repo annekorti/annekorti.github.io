@@ -355,9 +355,9 @@ p, h1, h2, h3 {
 	content: "";
 
 	bottom: -27px;
-  right: -158px;
+  right: 0;
 
-	width: 988px;
+	width: 958px;
 	height: 954px;
 
 	background-image: url("../img/about.png");
@@ -528,7 +528,7 @@ p, h1, h2, h3 {
     background-image: url("../img/footer@2x.jpg"); } }
 
 .contact__wrapper {
-	width: 1550px;
+	width: 1490px;
 	margin: 0 auto;
 	padding: 60px 30px;
 
