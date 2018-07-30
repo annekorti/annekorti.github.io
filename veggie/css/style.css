@@ -41,8 +41,9 @@ p, h1, h2, h3 {
   overflow: hidden; }
 
 .page-header {
+	width: auto;
 	min-height: 965px;
-	margin: 0 auto;
+	margin: 0;
 
 	background-image: url("../img/header-bg.jpg");
 	background-size: cover;
@@ -128,8 +129,9 @@ p, h1, h2, h3 {
 }
 
 .advantages {
+	width: auto;
 	min-height: 385px;
-	margin: 0 auto;
+	margin: 0;
 	background-color: #f1cb12;
 
 	background-image: url("../img/Bg@1x.jpg");
@@ -511,8 +513,9 @@ p, h1, h2, h3 {
 }
 
 .contact {
+	width: auto;
 	min-height: 965px;
-	margin: 0 auto;
+	margin: 0;
 
 	background-image: url("../img/footer@1x.jpg");
 	background-size: cover;
