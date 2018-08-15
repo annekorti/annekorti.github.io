@@ -79,14 +79,14 @@ img {
 	top: 0;
 }
 .sandwich {
-    position: absolute;
-    top: 20px;
-    bottom: 0;
-    left: 0;
-    width: 36px;
-    right: 10px;
-    margin: auto;
-    z-index: 200;
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  width: 36px;
+  right: 10px;
+  margin: auto;
+  z-index: 200;
 }
 
 .sandwich span {
@@ -95,69 +95,67 @@ img {
   transform-origin: left center;
 }
 .sw-topper {
-    position: relative;
-    top: 0;
-    height: 2px;
-    transform: scaleX(.78);
-    background: #fff;
-    border: none;
-    border-radius: 4px 4px 4px 4px;
-    transition: transform .5s,top .2s,-webkit-transform .5s;
+  position: relative;
+  top: 0;
+  height: 2px;
+  transform: scaleX(.78);
+  background: #fff;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  transition: transform .5s,top .2s,-webkit-transform .5s;
 }
 
 .sw-bottom {
-    position: relative;
-    transform: scaleX(1);
-    height: 2px;
-    top: 2.6px;
-    background: #fff;
-    border: none;
-    border-radius: 4px 4px 4px 4px;
-    transition-delay: .2s,0s;
+  position: relative;
+  transform: scaleX(1);
+  height: 2px;
+  top: 2.6px;
+  background: #fff;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  transition-delay: .2s,0s;
 }
 
 .sw-footer {
-    position: relative;
-    height: 2px;
-    top: 5.5px;
-    transform: scaleX(1);
-    background: #fff;
-    border: none;
-    border-radius: 4px 4px 4px 4px;
-    transition-delay: .1s;
-
+  position: relative;
+  height: 2px;
+  top: 5.5px;
+  transform: scaleX(1);
+  background: #fff;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  transition-delay: .1s;
  }
 
- .header__wrapper {
+.header__wrapper {
  	width: 1140px;
  	margin: 0 auto;
  	padding-top: 200px;
  }
 
- .main-nav__text {
+.main-nav__text {
  	position: relative;
  	font-size: 15px;
  	line-height: 22px;
  }
 .main-nav__text::before {
 	content: "";
-    display: inline-block;
-    width: 80px;
-    height: 1px;
-    background-color: #fff;
-    position: absolute;
-    left: -100px;
-    top: 12px;
+  display: inline-block;
+  width: 80px;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  left: -100px;
+  top: 12px;
 }
- .main-nav__title {
+.main-nav__title {
  	font-size: 56px;
  	line-height: 77px;
  	padding-top: 30px;
  	width: 1089px
  }
 
-
- .tour {
+.tour {
  	width: auto;
  	margin: 0;
 
@@ -172,20 +170,19 @@ img {
   .tour {
     background-image: url("../img/bgc1@2x.jpg"); } }
 
-
- .tour__wrapper {
+.tour__wrapper {
  	width: 1140px;
  	min-height: 1278px;
  	margin: 0 auto;
  }
 
- .tour__title {
+.tour__title {
  	font-size: 34px;
  	line-height: 50px;
  	padding: 60px 0 85px;
  }
 
- .tour__desk {
+.tour__desk {
  	padding-top: 110px;
  	width: 1100px;
  	font-size: 16px;
@@ -193,7 +190,7 @@ img {
  	font-weight: 400;
  }
 
- .example {
+.example {
  	position: relative;
  	width: auto;
  	margin: 0;
@@ -209,7 +206,7 @@ img {
   .example {
     background-image: url("../img/bgc3@2x.jpg"); } }
 
- .example__wrapper {
+.example__wrapper {
  	position: relative;
  	width: 1140px;
  	margin: 0 auto;
@@ -246,15 +243,15 @@ img {
 	background-color: #754489;
 }
 
- .next-case {
+.next-case {
  	width: 100%;
  }
 
- .next-case__wrapper {
+.next-case__wrapper {
  	margin: 0 auto;
  }
 
- .next-case__img {
+.next-case__img {
  	  background-image: url(https://www.mediaguru.ru/wp-content/uploads/2017/12/FxPro-1820x1024.jpg);
  	  background-position: 0 0;
  	  background-repeat: no-repeat;
@@ -262,26 +259,27 @@ img {
  	  height: 711px;
  }
 
- .footer-main {
- 	    margin: 0;
-    width: auto;
+.footer-main {
+ 	margin: 0;
+  width: auto;
  	position: relative;
  	background-color: #333333;
  }
 
- .footer-main__wrapper {
+.footer-main__wrapper {
  	display: flex;
  	justify-content: space-between;
- 	    width: 1240px;
-    padding: 127px 0 20px;
+ 	width: 1240px;
+  padding: 127px 0 20px;
+  box-sizing: border-box;
  	margin: 0 auto;
  }
 
- .request {
+.request {
  	width: 50%;
  }
 
- .request a {
+.request a {
  	position: relative;
  	display: inline-block;
  	  font-size: 24px;
@@ -296,20 +294,19 @@ img {
 	right: -23px;
 	top: 3px;
 }
-
 .request__copyright {
 	color: #5e5e5e;
-	    padding-top: 100px;
-    font-size: 18px;
-    letter-spacing: -0.08em;
+	padding-top: 100px;
+  font-size: 18px;
+  letter-spacing: -0.08em;
 }
 .footer-main__social {
 	width: 50%;
 }
 .social__list {
 	margin: 0;
-	    margin-top: 45px;
-	    margin-right: 26px
+	margin-top: 45px;
+	margin-right: 26px
 	padding: 0;
 	list-style: none;
 	display: flex;
