@@ -46,6 +46,9 @@ img {
 	background-size: cover;
 	overflow: hidden;
 }
+@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .page-header {
+    background-image: url("../img/index-menu@1,5x.jpg"); } }
 
 .page-header__wrapper {
 	margin: 0 auto;
@@ -165,6 +168,11 @@ img {
  	background-size: cover;
  }
 
+@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .tour {
+    background-image: url("../img/bgc1@2x.jpg"); } }
+
+
  .tour__wrapper {
  	width: 1140px;
  	min-height: 1278px;
@@ -197,6 +205,10 @@ img {
 	background-size: cover;
  }
 
+@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .example {
+    background-image: url("../img/bgc3@2x.jpg"); } }
+
  .example__wrapper {
  	position: relative;
  	width: 1140px;
@@ -220,6 +232,10 @@ img {
 	background-size: cover;
 	overflow: hidden;
 }
+
+@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .bgc-1 {
+    background-image: url("../img/bgc2@2x.jpg"); } }
 
 .bgc-2 {
 	position: absolute;
