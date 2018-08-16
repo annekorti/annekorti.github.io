@@ -1,5 +1,5 @@
 body {
-	min-width: 1200px;
+	min-width: 1240px;
 	margin: 0;
 	padding: 0;
 
@@ -410,13 +410,16 @@ a {
 	opacity: 0.1;
 }
 .contacts {
+	width: 100%;
 	position: relative;
+	padding: 0;
 	margin: 0 auto;
 	margin-top: 80px;
-	width: 1440px;
+	
 	height: 416px;
 }
 .contacts iframe {
+	width: 100%;
 	position: relative;
 	z-index: 2;
 	border: 0;
