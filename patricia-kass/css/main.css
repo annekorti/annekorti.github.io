@@ -1,11 +1,12 @@
 body {
-	min-width: 1440px;
+	min-width: 1230px;
 	font-family: 'Montserrat', 'Arial', sans-serif;
 	color: #ffffff;
 	font-weight: 900;
 	position: relative;
 	margin: 0;
 	padding: 0;
+	background-color: #333333;
 }
 
 a {
@@ -56,7 +57,7 @@ img {
 
 .main-nav {
 	position: fixed;
-	width: 95%;
+	width: 100%;
 	display: flex;
   justify-content: space-between;
   top: 30px;
@@ -261,18 +262,17 @@ img {
 
 .footer-main {
  	margin: 0;
-  width: auto;
- 	position: relative;
- 	background-color: #333333;
+  	width: auto;
  }
 
 .footer-main__wrapper {
+	width: 1226px;
+	margin: 0 auto;
  	display: flex;
  	justify-content: space-between;
- 	width: 1240px;
-  padding: 127px 0 20px;
-  box-sizing: border-box;
- 	margin: 0 auto;
+ 	
+ 	padding: 127px 10px 20px;
+  	box-sizing: border-box;
  }
 
 .request {
@@ -280,18 +280,18 @@ img {
  }
 
 .request a {
- 	position: relative;
- 	display: inline-block;
- 	font-size: 24px;
-  font-weight: 400;
-  line-height: 1.1;
+ position: relative;
+ display: inline-block;
+ font-size: 24px;
+ font-weight: 400;
+ line-height: 1.1;
  }
 .request__title {
 	padding-bottom: 18px;
 }
 .request__title svg {
 	position: absolute;
-	right: -23px;
+	right: -30px;
 	top: 3px;
 }
 .request__copyright {
@@ -304,13 +304,14 @@ img {
 	width: 50%;
 }
 .social__list {
-	margin: 0;
-	margin-top: 45px;
-	margin-right: 26px
-	padding: 0;
-	list-style: none;
+	width: 535px;
 	display: flex;
 	justify-content: flex-end;
+
+	 margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 45px;
 }
 
 .social__item {
@@ -318,6 +319,16 @@ img {
 	text-align: center;
 }
 
-.social__item svg path {
+.social__link svg path {
 	fill: #cccccc;
+}
+
+.social__link:hover svg path,
+.social__link:focus svg path {
+	fill: #c0d332;
+}
+
+.social__link:active svg path {
+	fill: #c0d332;
+	opacity: 0.7;
 }
