@@ -307,7 +307,9 @@ img {
 .social__list--desk {
 	display: none;
 }
-
+.desktop-wrapper--right {
+	display: none;
+}
 
 @media (min-width: 768px) {
  .page-header {
@@ -422,9 +424,9 @@ img {
 	justify-content: space-between; 
  }
 
- .page-header__wrapper::after {
+.page-header__wrapper::after {
   background-image: none;
- }
+}
 .page-header__logo {
 	margin-left: 93.5%;
 }
@@ -437,14 +439,13 @@ img {
   z-index: 1;
 }
 .desktop-wrapper--right {
+	display: block;
 	position: absolute;
+	top: 80px;
+	left: 1px;
   width: 100%;
   height: 595px;
-	/*background-image: url("../img/menu-desk@1x.jpg");*/
-	background-position: 7px 85px;
-  background-repeat: no-repeat;
 }
-
 .main-nav {
   top: 85px;
   min-height: 597px;

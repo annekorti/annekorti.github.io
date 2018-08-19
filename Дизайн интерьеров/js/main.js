@@ -1,3 +1,19 @@
+ $(document).ready(function() {
+  $('.slider-menu').slick({
+  	slidesToShow: 1,
+  	slidesToScroll: 1,
+  	dots: true,
+  	autoplay: true,
+  	autoplaySpeed: 3000,
+  	arrows : false,
+  	responsive: [
+  	{
+  		breakpoint: 1169,
+  		settings: "unslick"
+  	}]
+})
+});
+
  var navMain = document.querySelector('.main-nav');
  var navToggle = document.querySelector('.main-nav__toggle');
 
@@ -11,6 +27,5 @@
     }
   });
 
-$(function(){
- $('.slider').slick();
-});﻿
+
+	
