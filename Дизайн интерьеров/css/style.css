@@ -1459,31 +1459,9 @@ img {
 	border-bottom: 2px solid rgba(67, 108, 124, 0.7);
 	font-family: inherit;
   font-weight: 300;
+  color: #ffffff;
 }
 
-.input::-webkit-input-placeholder {
-	font-size: 18px;
-	line-height: 18px;
-
-	color: #ffffff;
-	letter-spacing: 0.05em;
-}
-
-.input:-ms-input-placeholder {
-	font-size: 18px;
-	line-height: 18px;
-
-	color: #ffffff;
-	letter-spacing: 0.05em;
-}
-
-.input::-ms-input-placeholder {
-	font-size: 18px;
-	line-height: 18px;
-
-	color: #ffffff;
-	letter-spacing: 0.05em;
-}
 
 .input::placeholder {
 	font-size: 18px;
