@@ -125,12 +125,17 @@ img {
  	background-size: cover;
  }
 
+@media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .page-header {
+    background-image: url("../img/image@2x.jpg"); } }
+
  .page-header__wrapper {
  	position: relative;
  	width: 320px;
  	min-height: 608px;
  	padding: 25px 14px 0 15px;  
- 	box-sizing: border-box;  
+ 	-webkit-box-sizing: border-box;  
+ 	        box-sizing: border-box;  
  	margin: 0 auto;
  }
 
@@ -252,9 +257,12 @@ img {
 	text-transform: uppercase;
 }
 .social__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	justify-content: space-around;
 	align-items: baseline;
+
   margin: 0 auto;
   margin-top: 47px;
   width: 235px;
@@ -408,6 +416,11 @@ img {
 }
 }
 
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (min-resolution: 144dpi), (min-width: 768px) and (min-resolution: 1.5dppx) {
+  .page-header {
+ 		background-image: url("../img/image-tablet@2x.jpg");
+ } }
+
 @media (min-width: 1170px) {
 .page-header {
  	background-image: none;
@@ -419,6 +432,10 @@ img {
  	width: 1170px;
  	min-height: 768px;
  	padding: 22px 95px 0 0; 
+
+ 	display: -webkit-box; 
+
+ 	display: -ms-flexbox; 
 
  	display: flex;
 	justify-content: space-between; 
@@ -479,7 +496,7 @@ img {
  }
 
 .main-nav--opened .main-nav__toggle::before {
-  transform: rotate(0);
+ transform: rotate(0);
   box-shadow: none;
 }
 
@@ -553,6 +570,8 @@ img {
 	position: absolute;
 	bottom: 30px;
 	left: 9px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	justify-content: space-between;
 
@@ -563,7 +582,6 @@ img {
 	list-style: none;
 }
 }
-
 
 .advantages {
 	width: auto;
@@ -613,6 +631,8 @@ img {
 }
 
 .advantages__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -641,12 +661,6 @@ img {
 .advantages__wrapper {
 	width: 1170px;
 	padding: 97px 0 0;  
-}
-
-.advantages__list {
-	justify-content: flex-start;
-
-	
 }
 
 .advantages__item {
@@ -722,6 +736,8 @@ img {
 }
 
 .portfolio__slider {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	justify-content: space-between;
 }
@@ -733,6 +749,8 @@ img {
 }
 
 .portfolio-img-desk {
+	position: absolute;
+  left: 10px;
 	min-width: 260px;
 	line-height: 18px;
 	color: #00203a;
@@ -757,6 +775,8 @@ img {
 }
 
 .portfolio__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -769,6 +789,7 @@ img {
 }
 
 .portfolio-img-desk {
+	left: 30%;
   padding-top: 50px;
   font-size: 20px;
   line-height: 20px;
@@ -1004,6 +1025,8 @@ img {
 
 .services__list {
 	padding: 51px 38px 20px 39px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1065,6 +1088,10 @@ img {
 	width: 1170px;
 	padding-top: 127px;
 	padding-left: 3px;
+
+	display: -webkit-box;
+
+	display: -ms-flexbox;
 
 	display: flex;
 	flex-direction: row;
@@ -1164,6 +1191,9 @@ img {
 	transform: translate(-47%, -77%);
 	transition: transform .1s;
 }
+ @media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .about__play {
+    background-image: url("../img/play@2x.png"); } }
 
 .about__play:hover {
 	transform: translate(-47%, -77%) scale(1.2);
@@ -1204,6 +1234,12 @@ img {
   transform: translate(-50%, -63%) scale(0.8);
   opacity: .6; }
  }
+
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (min-resolution: 144dpi), (min-width: 768px) and (min-resolution: 1.5dppx) {
+  .about__play {
+    background-image: url("../img/play-tablet@2x.png");
+ } }
+
 
 @media (min-width: 1170px) {
 .about__wrapper {
@@ -1290,6 +1326,8 @@ img {
 }
 
 .phase-work__list {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -1379,6 +1417,9 @@ img {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+ @media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .request {
+    background-image: url("../img/form@2x.jpg"); } }
 
 .request__wrapper {
 	width: 320px;
@@ -1418,6 +1459,30 @@ img {
 	border-bottom: 2px solid rgba(67, 108, 124, 0.7);
 	font-family: inherit;
   font-weight: 300;
+}
+
+.input::-webkit-input-placeholder {
+	font-size: 18px;
+	line-height: 18px;
+
+	color: #ffffff;
+	letter-spacing: 0.05em;
+}
+
+.input:-ms-input-placeholder {
+	font-size: 18px;
+	line-height: 18px;
+
+	color: #ffffff;
+	letter-spacing: 0.05em;
+}
+
+.input::-ms-input-placeholder {
+	font-size: 18px;
+	line-height: 18px;
+
+	color: #ffffff;
+	letter-spacing: 0.05em;
 }
 
 .input::placeholder {
@@ -1539,6 +1604,10 @@ img {
 	width: 475px;
 }
 }
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (min-resolution: 144dpi), (min-width: 768px) and (min-resolution: 1.5dppx) {
+  .request {
+		background-image: url("../img/form-tablet@2x.jpg");
+ } }
 
 @media (min-width: 1170px) {
 .request {
@@ -1549,6 +1618,8 @@ img {
 }
 
 .request__wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	justify-content: space-between;
 	width: 1170px;
@@ -1579,15 +1650,23 @@ img {
 	line-height: 43px;
 }
 .request__desk {
-    margin: 0;
-    text-align: left;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 22px 4px;
+  margin: 0;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 22px 4px;
 }
 
 .form-page {
 	margin: 0;
+}
+.input::-webkit-input-placeholder {
+	font-size: 14px;
+	line-height: 17px;
+}
+.input:-ms-input-placeholder {
+	font-size: 14px;
+	line-height: 17px;
 }
 .input::placeholder {
 	font-size: 14px;
@@ -1615,6 +1694,11 @@ img {
 	text-align: left;
 }
 }
+@media (min-width: 1170px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1170px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1170px) and (min-resolution: 144dpi), (min-width: 1170px) and (min-resolution: 1.5dppx) {
+  .form-2 {
+		background-image: url("../img/form-desktop@2x.jpg");
+ } }
+
 
 .reviews {
 	width: auto;
@@ -1710,6 +1794,8 @@ img {
 }
 
 .reviews__slides {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
