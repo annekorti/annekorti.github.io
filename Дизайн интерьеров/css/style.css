@@ -543,27 +543,14 @@ img {
 }
 .menu-tel {
 	display: inline-block;
-	position: relative;
-	right: -365px;
-  top: 3px;
+	position: absolute;
+  right: 0;
+  top: 35px;
   font-size: 15px;
   line-height: 14px;
   font-weight: 600;
   color: #252525;
   letter-spacing: 0.075em;
-}
-
-.menu-tel::before {
-	position: absolute;
-
-	content: "";
-
-	width: 12px;
-	height: 15px;
-
-	background-image: ("../img/phone@2x.png");
-	background-repeat: no-repeat;
-	background-position: 0 0;
 }
 
 .social__list--desk {
