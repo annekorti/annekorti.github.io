@@ -736,8 +736,7 @@ img {
 }
 
 .portfolio__slider {
-	display: -webkit-box;
-	display: -ms-flexbox;
+	position: relative;
 	display: flex;
 	justify-content: space-between;
 }
