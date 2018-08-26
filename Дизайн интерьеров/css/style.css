@@ -431,7 +431,7 @@ img {
  .page-header__wrapper {
  	width: 1170px;
  	min-height: 768px;
- 	padding: 22px 95px 0 0; 
+ 	padding: 22px 0 0; 
 
  	display: -webkit-box; 
 
@@ -448,7 +448,7 @@ img {
 	margin-left: 93.5%;
 }
 .desktop-wrapper--left {
-	width: 54.4%;
+	width: 49.96%;
 	padding-left: 97px;
 	box-sizing: border-box;
 	background-color: #112537;
@@ -458,7 +458,7 @@ img {
 .desktop-wrapper--right {
 	display: block;
 	position: absolute;
-	top: 80px;
+	top: 85px;
 	left: 1px;
   width: 100%;
   height: 595px;
