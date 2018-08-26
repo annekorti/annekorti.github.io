@@ -534,6 +534,7 @@ img {
 }
 
 .page-header__btn {
+	margin-bottom: 130px;
 	width: 277px;
   margin: 35px 0 0 5px;
   padding: 20px 27px;
