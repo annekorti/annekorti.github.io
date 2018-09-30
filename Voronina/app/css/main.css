@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *::-webkit-input-placeholder {
   color: #666;
   opacity: 1; }
@@ -33,6 +34,9 @@ body {
   line-height: 14px;
   color: #1d1c1c;
   background-color: #fff; }
+
+main {
+  overflow: hidden; }
 
 a {
   text-decoration: none;
@@ -506,6 +510,12 @@ p, h1, h2, h3 {
     font-weight: normal;
     color: rgba(33, 32, 33, 0.6);
     text-transform: none; }
+  .site__item a:hover, .site__item a:focus {
+    color: rgba(33, 32, 33, 0.9);
+    text-shadow: 0 1px 2px #e9fadd;
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out; }
   .site__item:nth-child(1),
   .site__item:nth-child(2),
   .site__item:nth-child(3) {
@@ -625,8 +635,27 @@ p, h1, h2, h3 {
 
 @media (min-width: 764px) {
   .portfolio__wrapper {
+    position: relative;
     width: 764px;
     padding: 154px 62px 210px; }
+  .portfolio__wrapper::before {
+    position: absolute;
+    top: 210px;
+    left: 0;
+    content: "";
+    background-image: url("../img/Лист-6@1x.png");
+    width: 141px;
+    height: 78px;
+    z-index: 10; }
+  .portfolio__wrapper::after {
+    position: absolute;
+    top: 300px;
+    right: 10px;
+    content: "";
+    background-image: url("../img/Лист-2@1x.png");
+    width: 96px;
+    height: 74px;
+    z-index: 10; }
   .col,
   .col1,
   .col2 {
@@ -646,7 +675,7 @@ p, h1, h2, h3 {
     left: 0;
     height: 4295px; }
   .col::after {
-    top: -140px;
+    top: -154px;
     right: 0;
     height: 4295px; }
   .col1::before {
@@ -654,7 +683,7 @@ p, h1, h2, h3 {
     left: 164px;
     height: 900px; }
   .col1::after {
-    top: -140px;
+    top: -154px;
     right: 220px;
     height: 1700px; }
   .col2::before {
@@ -676,6 +705,15 @@ p, h1, h2, h3 {
     line-height: 24px; }
   .portfolio__title::before {
     height: 38px; }
+  .portfolio__title::after {
+    position: absolute;
+    top: 25px;
+    right: 190px;
+    content: "";
+    background-image: url("../img/Лист-3@1x.png");
+    width: 52px;
+    height: 40px;
+    z-index: 10; }
   .portfolio__list {
     position: relative;
     -webkit-box-orient: horizontal;
@@ -715,32 +753,36 @@ p, h1, h2, h3 {
   .portfolio__wrapper {
     width: 1440px;
     padding: 140px 165px 265px; }
+  .portfolio__wrapper::before {
+    left: 100px; }
+  .portfolio__wrapper::after {
+    right: 120px; }
   .col::before {
-    top: -154px;
+    top: -140px;
     left: 0;
-    height: 4295px; }
+    height: 5035px; }
   .col::after {
-    top: -154px;
+    top: -140px;
     right: 0;
-    height: 4295px; }
+    height: 5035px; }
   .col1::before {
-    top: 40px;
-    left: 164px;
-    height: 900px; }
+    top: 355px;
+    left: 365px;
+    height: 1050px; }
   .col1::after {
-    top: -154px;
-    right: 220px;
-    height: 1700px; }
+    top: -140px;
+    right: 390px;
+    height: 2250px; }
   .col2::before {
-    top: 540px;
-    left: 164px;
-    height: 1345px; }
+    top: 450px;
+    left: 365px;
+    height: 1565px; }
   .col2::after {
-    top: 0;
-    right: 220px;
-    height: 1885px; }
+    top: -490px;
+    right: 355px;
+    height: 2505px; }
   .portfolio__span {
-    top: 220px;
+    top: 240px;
     left: 500px;
     font-size: 108px;
     line-height: 108px; }
@@ -748,6 +790,8 @@ p, h1, h2, h3 {
     padding: 140px 0 100px;
     font-size: 36px;
     line-height: 36px; }
+  .portfolio__title::after {
+    right: 360px; }
   .portfolio__title::before {
     height: 38px; }
   .portfolio__item {
@@ -971,6 +1015,24 @@ p, h1, h2, h3 {
     position: relative;
     width: 764px;
     padding: 287px 62px 72px; }
+  .about__wrapper::before {
+    position: absolute;
+    top: 325px;
+    left: 10px;
+    content: "";
+    background-image: url("../img/Лист-7@1x.png");
+    width: 113px;
+    height: 72px;
+    z-index: 10; }
+  .about__wrapper::after {
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    content: "";
+    background-image: url("../img/Лист-1@1x.png");
+    width: 91px;
+    height: 75px;
+    z-index: 10; }
   .about__span {
     top: 375px;
     left: 235px;
@@ -1023,6 +1085,11 @@ p, h1, h2, h3 {
     position: relative;
     width: 1440px;
     padding: 262px 165px 72px; }
+  .about__wrapper::before {
+    left: 110px; }
+  .about__wrapper::after {
+    top: -250px;
+    right: 120px; }
   .about__span {
     top: 365px;
     left: 475px;
@@ -1165,6 +1232,15 @@ p, h1, h2, h3 {
     line-height: 24px; }
   .price__title::before {
     height: 38px; }
+  .price__title::after {
+    position: absolute;
+    top: -70px;
+    right: 190px;
+    content: "";
+    background-image: url("../img/Лист-3@1x.png");
+    width: 52px;
+    height: 40px;
+    z-index: 10; }
   .price__list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1176,6 +1252,7 @@ p, h1, h2, h3 {
         -ms-flex-pack: justify;
             justify-content: space-between; }
   .price__item {
+    max-width: 239px;
     margin-bottom: 69px; }
   .price__item:nth-child(1) {
     width: 240px;
@@ -1202,8 +1279,18 @@ p, h1, h2, h3 {
 
 @media (min-width: 1440px) {
   .price__wrapper {
+    position: relative;
     width: 1440px;
     padding: 105px 165px 0; }
+  .price__wrapper::before {
+    position: absolute;
+    top: 200px;
+    left: 115px;
+    content: "";
+    background-image: url("../img/Лист-2@1x.png");
+    width: 96px;
+    height: 74px;
+    z-index: 10; }
   .price__span {
     top: 205px;
     left: 485px;
@@ -1213,9 +1300,12 @@ p, h1, h2, h3 {
     padding: 138px 0 160px;
     font-size: 36px;
     line-height: 36px; }
+  .price__title::after {
+    right: 330px; }
   .price__item {
     margin-bottom: 69px;
-    margin-top: 35px; }
+    margin-top: 35px;
+    max-width: 239px; }
   .price__item:nth-child(1) {
     width: 414px;
     margin-top: 205px; }
@@ -1317,8 +1407,27 @@ p, h1, h2, h3 {
 
 @media (min-width: 764px) {
   .footer__wrapper {
+    position: relative;
     width: 764px;
     padding: 57px 62px 85px; }
+  .footer__wrapper::before {
+    position: absolute;
+    top: 180px;
+    left: 25px;
+    content: "";
+    background-image: url("../img/Лист-5@1x.png");
+    width: 90px;
+    height: 77px;
+    z-index: 10; }
+  .footer__wrapper::after {
+    position: absolute;
+    top: -25px;
+    right: 20px;
+    content: "";
+    background-image: url("../img/Лист-1@1x.png");
+    width: 91px;
+    height: 75px;
+    z-index: 10; }
   .footer-span {
     top: 135px;
     left: 155px;
@@ -1347,6 +1456,11 @@ p, h1, h2, h3 {
   .footer__wrapper {
     width: 1440px;
     padding: 33px 164px 85px; }
+  .footer__wrapper::before {
+    top: 160px;
+    left: 120px; }
+  .footer__wrapper::after {
+    right: 120px; }
   .footer-span {
     top: 255px;
     left: 290px;
