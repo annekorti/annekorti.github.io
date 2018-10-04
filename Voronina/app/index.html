@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Сай-портфолио Дарии Ворониной. Food-фотограф и food-cтилист">
+  <meta name="description" content="Сай-портфолио Дарьи Ворониной. Food-фотограф и food-cтилист">
   <meta name="author" content="Anna Orlova">
   <meta name="keywords" content="voronina, фотограф"/>
 	<title>Voronina</title>
@@ -14,6 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.min.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header class="page-header">
@@ -32,11 +33,11 @@
 					</button>
 						<ul class="main__nav__list site__list hide">
 							<li class="site__item"><a href="#">Главная</a></li>
-							<li class="site__item"><a href="#">Портфолио</a></li>
-							<li class="site__item"><a href="#">Подробное портфолио</a></li>
-							<li class="site__item"><a href="#">Обо мне</a></li>
-							<li class="site__item"><a href="#">Стоимость</a></li>
-							<li class="site__item"><a href="#">Контакты</a></li>
+							<li class="site__item"><a href="#portfolio">Портфолио</a></li>
+							<li class="site__item"><a href="#all-portfolio">Подробное портфолио</a></li>
+							<li class="site__item"><a href="#about">Обо мне</a></li>
+							<li class="site__item"><a href="#price">Стоимость</a></li>
+							<li class="site__item"><a href="#contacts">Контакты</a></li>
 						</ul>
 				</nav>
 				<p class="page-header__phone">+ 7 916 66 77 112</p>
@@ -51,7 +52,7 @@
 				<span class="title--photography">Photogrphy</span>
 				<h2 class="page-header__title">Дарья Воронина</h2>
 				<p class="page-header__desk">Food — фотограф и food — стилист<br> в Москве и Московской области</p>
-				<a href="#" class="page-header__btn btn">Портфолио</a>
+				<a href="#portfolio" class="page-header__btn btn">Портфолио</a>
 			</div>
 			<div class="page-header__social">
 				<a href="#" class="social__link">INSTAGRAM</a>
@@ -61,7 +62,7 @@
 		</div>		
 	</header>
 	<main>
-		<section class="portfolio">
+		<section class="portfolio show-on-scroll" id="portfolio">
 			<div class="portfolio__wrapper">
 				<div class="col"></div>
 				<div class="col1"></div>
@@ -107,7 +108,7 @@
 				</ul>
 			</div>
 		</section>
-		<section class="all-portfolio">
+		<section class="all-portfolio" id="all-portfolio">
 			<div class="all-portfolio__wrapper">
 				  <picture>
 						<source media="(min-width: 1440px)" srcset="img/all-portfolio-desk@1x.jpg, img/all-portfolio-desk@2x.jpg 2x">
@@ -121,7 +122,7 @@
 			</div>
 			</div>
 		</section>
-		<section class="about">
+		<section class="about show-on-scroll" id="about">
 			<div class="about__wrapper">
 				<span class="about__span">About</span>
 				<h2 class="about__title">Обо мне</h2>
@@ -148,7 +149,7 @@
 			</div>
 		</div>
 		</section>
-		<section class="price">
+		<section class="price show-on-scroll" id="price">
 			<div class="price__wrapper">
 				<span class="price__span">Price</span>
 				<h2 class="price__title">Стоимость</h2>
@@ -186,7 +187,7 @@
 				</ul>
 			</div>
 		</section>
-		<footer class="footer">
+		<footer class="footer show-on-scroll" id="contacts">
 			<div class="footer__wrapper">
 				<span class="footer-span">Contacts</span>
 				<h2 class="footer__title">Свяжитесь со мной</h2>
@@ -239,6 +240,8 @@
 			</div>
 		</footer>
 	</main>
+	<button class="top" title="Наверх"><i class="fa fa-chevron-up"></i></button>
+
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
 	
