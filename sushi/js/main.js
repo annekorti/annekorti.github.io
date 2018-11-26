@@ -93,6 +93,7 @@ $(document).ready(function() {
     nav:false, // кнопки вперед/назад
     autoplay:true, // автопрокрутка
     autoplayTimeout:3000, // задержка в мс
+    lazyLoad:true,
     autoplayHoverPause:false, // не останавливать при наведении
     responsive:{
         0:{
@@ -110,6 +111,7 @@ $(document).ready(function() {
     autoplayHoverPause:true, // не останавливать при наведении
     stagePadding: 15,
     dots: false,
+    lazyLoad:true,
     autoWidth: true,
     margin: 30,
     scrollPerPage : true,
